@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja TRENDY</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contato.css">
+  
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+<body>
+    <header>
+        <div class="caixa">
+
+            <h1><img src="logo.png" alt="Logo de barbearia Alura"></h1>
+            <p>Seja Bem-Vindo, fique a vontade para realizar seu cadastro e fazer pedido!</p>
+          
+        </div>
+    </header>
+    
+    <main>
+        <form action="https://api.sheetmonkey.io/form/f4mEG5aGKtLq8rENgGAGZN" method="post">
+
+
+            <label for="nomesobrenome">Nome e sobrenome:
+            <input type="text" id="nomesobrenome" class="input-padrao" name="nomesobrenome" required>
+            </label>
+
+            <label for="email"> Email:
+            <input type="email" id="email"  class="input-padrao" name="Email" required placeholder="seuemail@seudominio.com">
+            </label>
+
+            <label for="telefone">Telefone:
+            <input type="tel" id="telefone"  class="input-padrao" name="Telefone" required placeholder="(XX) XXXXX-XXXX">
+            </label>
+
+            <label for="nomesobrenome">Cidade:
+            <input type="text" id="nomesobrenome" class="input-padrao" name="Cidade" required>
+            </label>
+
+            <label for="nomesobrenome">Bairro:
+            <input type="text" id="nomesobrenome" class="input-padrao" name="Bairro" required>
+            </label>
+
+            <label for="mensagem">Faça aqui seu pedido:
+            <textarea cols="70" rows="5" id="mensagem"  class="input-padrao" name="mensagem" > </textarea>
+            </label>
+
+            <fieldset>
+                <legend>Como prefere o nosso contato ?</legend>
+
+                <label for="radio-email">
+                    <input type="radio" value="Email" id="radio-email" name="contato">Email
+                </label>
+                
+
+                <label for="radio-telefone"> 
+                    <input type="radio" value="Telefone" id="radio-telefone" name="contato">Telefone
+                </label>
+                
+
+                <label for="radio-whatsapp" > 
+                    <input type="radio" value="whatsapp" id="radio-whatsapp" name="contato" checked>WhatsApp 
+                </label>
+
+            </fieldset>
+            <br> 
+
+            <fieldset>
+                <legend>Forma de pagamento ? </legend>
+
+                <label for="radio-pix">
+                    <input type="radio" value="Email" id="radio-email" name="pix">PIX
+                </label>
+                
+
+                <label for="radio-dinheiro"> 
+                    <input type="radio" value="Telefone" id="radio-telefone" name="pix">Dinheiro
+                </label>
+                
+
+                <label for="radio-cartao" > 
+                    <input type="radio" value="whatsapp" id="radio-whatsapp" name="pix" checked>Cartão 
+                </label>
+
+            </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Qual Horario da tua entrega  ?</legend>
+                    <select >
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+
+            <label class="checkbox" ><input checked  type="checkbox">Gostaria de receber nossas novidades por email ?</label>
+            
+
+            <input type="submit" value="Enviar Formulário" class="enviar">
+
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+           <tbody>
+                <tr>
+                    <td>Sábado</td>
+                    <td> 08h as 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td> 18h as 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td> 07h as 11h</td>
+                </tr>
+
+                
+            </tbody>
+
+        
+            
+
+        </table>
+
+    </main>
+
+     <footer>
+        <img src="logo-branco.png">
+        <p class="copyright">&copy;  Por: Felipe Felix </p>
+    </footer>
+
+    
+</body>
+
+</html>

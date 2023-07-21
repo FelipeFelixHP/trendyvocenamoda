@@ -1,0 +1,112 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #137aa8;
+    padding:  20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 25px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(84, 11, 11);
+    text-decoration: underline;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0px;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0px 0px 10px;
+}
+.input-padrao {
+    display: block;
+    margin: 0px 0px 20px;
+    padding: 5px 40px;
+    width: 50%;
+}
+
+.checkbox {
+    margin:  20px 0px;
+}
+
+
+footer{
+    text-align: center;
+    background: url('bg.jpg');
+    padding: 20px 0px;
+}
+
+.copyright {
+    font-size: 15px;
+    color: #ffffff;
+    padding: 20px 0 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0px;
+    background: #137aa8;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 2s all;
+}
+
+.enviar:hover {
+    background: red;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 40px 60px 40px;
+}
+
+thead{
+    background: #137aa8;
+    color: white;
+    font-weight: bold;
+
+}
+td, th {
+    border: solid #000000;
+    padding: 15px 20px;
+}
+
+img{
+    height: 150px;
+}
